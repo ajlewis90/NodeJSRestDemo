@@ -20,7 +20,7 @@ if (process.env.NODE_ENV == 'dev'){
 	process.env.PORT = '8084';
 }
 else if (process.env.NODE_ENV == 'Prod'){
-	process.env.PORT = '8081';
+	process.env.PORT = '8080';
 }
 
 console.log('port number is:' + process.env.PORT);
